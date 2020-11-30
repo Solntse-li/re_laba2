@@ -73,11 +73,6 @@ def t_RRB(t):
     return t
 
 
-# def t_AMP(t):
-#     r"&"
-#     t.value = str(t.value)
-#     return t
-
 
 def t_ID(t):
     r"\<[A-Za-z][A-Za-z0-9_]*\>"
